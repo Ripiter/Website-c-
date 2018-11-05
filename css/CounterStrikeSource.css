@@ -1,0 +1,181 @@
+﻿body {
+    background-color: #3b9dca;
+    color: #fff;
+}
+.contact { /* h1 Contact us*/   
+    margin: 5px;
+    padding: 5px;
+    position: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+input.fnametext, select, textarea{ /*firt name tabela*/
+    font-size: 14px;
+    color: #000;
+    width: 280px;
+    height: 40px;
+    padding-left: 14px;
+    margin-bottom: 4%;
+}
+input.lnametext, select, textarea {/*last name tabela*/
+    font-size: 14px;
+    color: #000;
+    width: 280px;
+    height: 40px;
+    padding-left: 14px;
+    margin-bottom: 4%;
+}
+input.finametext, select, textarea {/*Firm name tabela*/
+    font-size: 14px;
+    color: #000;
+    width: 280px;
+    height: 40px;
+    padding-left: 14px;
+    margin-bottom: 4%;
+}
+input.emailtext, select, textarea {/*E-mail tabela*/
+    font-size: 14px;
+    color: #000;
+    width: 280px;
+    height: 40px;
+    padding-left: 14px;
+    margin-bottom: 4%;
+}
+input.phonetext, select, textarea {/*Telefon number tabela*/
+    font-size: 14px;
+    color: #000;
+    width: 280px;
+    height: 40px;
+    padding-left: 14px;
+    margin-bottom: 4%;
+}
+input.messagetext, select, textarea { /*Message number tabela*/
+    font-size: 14px;
+    color: #000;
+    width: 280px;
+    height: 80px;
+    padding-left: 14px;
+    padding-top: 3%;
+    margin-bottom: 4%;
+}
+.buttonkret { /*Button*/
+    border: none;
+    padding: 12px 40px;
+    outline: none;
+    background-color: #1b1b1b;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 45.5%;
+}
+.row { /*Revision firma*/
+    margin: 0px;
+    padding-top: 0.4%;
+    padding-bottom: 0.2%;
+    width: 100%;
+    background-color: #fff;
+
+}
+.row p {
+    position: absolute;
+}
+.left { /*Only Revision firma*/
+    margin-left: 185px;
+    float: left;
+    left: 6px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.right { /*Link to home*/
+    margin-right: 5%;
+    float: right;
+    right: 40px;
+}
+.lefttext{ /*Information about tings (for now its h1 and p)*/
+    margin: -0.2% 11%;
+    padding: 5px;
+    position: relative;
+    float: left;
+    left: -13px;
+    font-size: 18px;
+}
+
+img { /*Potato*/
+    padding-top: 8%;
+    padding-left: 3%;
+    float: left;  
+}
+.middlepotato {
+    height: auto;
+    width: 21%;
+    position: relative;
+    left: -40.5%;
+    padding: 1px;
+    bottom: -17.5em;
+   
+}
+.logopotato { /*Logo of the company that redirect to index*/
+    margin: 1px;
+    padding-top: 1px;
+    width: 14%;
+}
+.tabela { /*prawa strona*/
+    margin: -3.3% 2.5%;
+    padding: 2px;
+    float: right;
+    width: 26%;    
+}
+a{ /*Headline*/
+    color: black;
+    font-size: 22px;
+    position: relative;
+    top: 26px;
+    padding: 0px 25px 0px 0px;
+}
+a:hover {
+    text-decoration: none;
+}
+.revfirma { /* Revision firma paragraph*/
+    font-size: 26px;
+    color: #000;
+    position: relative;
+    top: 4.7%;
+    left: 15%;
+} 
+h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 26px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.textpotato { /* text next to photo of the potato*/
+    width: 40%;
+    height: 40px;
+    font-size: 15px;
+    margin: 5px 5px;
+    padding: 5px;
+    position: relative;
+    float: left;
+    left: -300px;
+    top: 350px;
+}
+.linjie { /* <HR /> block*/
+    display: block;
+    height: 1px;
+}
+@media screen and (max-width: 1500px){ /*For the window mode in browser*/
+
+
+
+
+}
+
+@media screen and (max-width: 800px){ /*For the Phone*/
+
+
+
+
+}
