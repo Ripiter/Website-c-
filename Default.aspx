@@ -6,58 +6,60 @@
 <head runat="server">
     <title>Potato</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/CounterStrikeSource.css">
-    
+
 </head>
 <body>
     <div class="row">
         <div class="left">
-            <p class=" revfirma" style="color: #000">Revision firma</p>
+            <p class=" revfirma" style="color: #000">Revisionsfirma</p>
             
         </div>
-        <a href="index.html"> <img class="logopotato" src="img/potatologo.png" /> </a>
+        <a href="indexDK.html"> <img class="logopotato" src="img/potatologo.png" /> </a>
         <div class="right">
-            <a href="index.html" style="color: #42b3e5">Home</a>
-            <a href="index.html#about">About us</a>
-            <a href="index.html#service">Service</a>
-            <a href="index.html#team">Team</a>
-            <a href="Default.aspx">Contact us</a>
+            <a href="index.html" style="color: #42b3e5" class="home">Home</a>
+            <!--<div class="respons">-->
+                <a href="indexDK.html#about" class="respons">Om os</a>
+                <a href="indexDK.html#service" class="respons">Tekst</a>
+                <a href="indexDK.html#team" class="respons">Hold</a>
+                <a href="indexDK.html#service" class="respons">Tekst2</a>
+                <a href="Default.aspx" class="respons">Kontakt os</a>
+            <!--</div>-->
         </div>
     </div>
     <div class="contact">
-        <h1>Contact Us</h1>
+        <h1>Kontakt os</h1>
     </div>
     <div class="lefttext">
-        <h3>Info about Potatos</h3>
+        <h3>Info om Potatos</h3>
         <hr  class=" linjie"/>
-        <p><i class="fa fa-calendar" aria-hidden="true"></i> <b>Monday - Friday:</b> 4:20 AM to 3:33 PM</p>
-        <p><i class="fa fa-location-arrow" aria-hidden="true"></i> <b>Address:</b> 123 Some Street, Potato Land, DK</p>
-        <p><i class="fa fa-phone" aria-hidden="true"></i> <b>Phone:</b> 69 96 69 96</p>
-        <p><i class="fa fa-envelope" aria-hidden="true"></i> <b>Mail:</b> potato@gaming.com</p>
-        <p><i class="fa fa-fax" aria-hidden="true"></i> <b>Fax:</b> Plz if you still use fax, don't</p>
-    </div>
+        <p><i class="fa fa-calendar" aria-hidden="true"></i> <b>Mandag - Fredag:</b> 8:00 til 16:00</p>
+        <p><i class="fa fa-location-arrow" aria-hidden="true"></i> <b>Adresse:</b> 123 Some Street, Potato Land, DK</p>
+        <p><i class="fa fa-phone" aria-hidden="true"></i> <b>Telefon:</b> 69 96 69 96</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i> <b>E-mail:</b> potato@gaming.com</p>
+     </div>
      <p class="textpotato" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ne falli inimicus recteque sea, vix aeterno vituperata et, eam et paulo denique. Ei per everti mediocrem. Consul nonumes ea his, no his ullum oratio, pri principes  </p>
-     <iframe class=" middlepotato"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d190395.25990230695!2d-77.96890685013129!3d41.78690359693911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ce062910cc593d%3A0x4c19a8b9a56581b6!2sPotato+City+Airport!5e0!3m2!1sen!2sdk!4v1540971500628" width="600" height="950" frameborder="0" style="border:0" allowfullscreen></iframe>
+     <iframe class="middlepotato"  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d190395.25990230695!2d-77.96890685013129!3d41.78690359693911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ce062910cc593d%3A0x4c19a8b9a56581b6!2sPotato+City+Airport!5e0!3m2!1sen!2sdk!4v1540971500628" frameborder="0" style="border:0" allowfullscreen></iframe>
     <div class="tabela">
-        <h3> Contact Potatos</h3>
+        <h3> Kontakt Potatos</h3>
         <hr class=" linjie" />
     <form id="form1" runat="server">
         <div>
             <table>
                 <tr>
                     <td>
-                        <asp:TextBox ID="TextBox1" runat="server" CssClass="fnametext" placeholder="First name"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1" runat="server" CssClass="fnametext" placeholder="Fornavn"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:TextBox ID="TextBox2" runat="server" CssClass="lnametext" placeholder="Last name"></asp:TextBox>
+                        <asp:TextBox ID="TextBox2" runat="server" CssClass="lnametext" placeholder="Efternavn"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:TextBox ID="TextBox3" runat="server" CssClass="finametext" placeholder="Firm name"></asp:TextBox>
+                        <asp:TextBox ID="TextBox3" runat="server" CssClass="finametext" placeholder="Firmanavn"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -67,18 +69,17 @@
                 </tr>
                  <tr>
                     <td>
-                        <asp:TextBox ID="TextBox5" runat="server" CssClass="phonetext" placeholder="Phone Number"></asp:TextBox>
+                        <asp:TextBox ID="TextBox5" runat="server" CssClass="phonetext" placeholder="Telefonnummer"></asp:TextBox>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <asp:TextBox ID="TextBox6" runat="server" CssClass="messagetext" TextMode="MultiLine" placeholder="What can we help you with?"></asp:TextBox>
+                        <asp:TextBox ID="TextBox6" runat="server" CssClass="messagetext" TextMode="MultiLine" placeholder="Hvad kan vi hjælpe dig med?"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2" aria-disabled="False" > 
                         <asp:Button ID="Button1" runat="server" Text="Send" OnClick="Button1_Click1" CssClass="buttonkret" type="reset" value="reset"/>
-                       
                     </td>
                 </tr>
             </table>

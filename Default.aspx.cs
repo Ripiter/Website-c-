@@ -25,7 +25,7 @@ namespace Websitepart3
             cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = "insert into Working values ('"+TextBox1.Text+"','"+TextBox2.Text+"','"+TextBox3.Text+"','"+TextBox4.Text+"','"+TextBox5.Text+"','"+TextBox6.Text+"')";
             cmd.ExecuteNonQuery();
-            string msgstring = "Your ting have been saved";
+            string msgstring = "Your info have been saved";
             string content = "window.onload=function(){ alert('";
             content += msgstring;
             content += "');";

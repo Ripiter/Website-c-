@@ -1,0 +1,301 @@
+﻿body {
+    background-color: #808acd;
+    margin: 0;
+    color: #fff;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #3c455c;
+    color: #000;
+    padding-top: 1px;
+    padding-bottom: 4px;
+}
+
+    header h1 {
+        margin-left: 25px;
+    }
+
+.logopotato { /*Logo of the company that redirect to index*/
+    position: absolute;
+    margin: -0.7% 0 0 14%;
+    width: 82px;
+    height: 14vh;
+}
+
+header a {
+    float: right;
+    margin-right: 5%;
+    text-decoration: none;
+    transition: all 0.6s ease 0s;
+    color: #0094ff;
+}
+
+    header a:hover {
+        float: right;
+        margin-right: 5%;
+        text-decoration: none;
+        transition: all 0.6s ease 0s;
+        color: aqua;
+    }
+
+/*Tuturial part*/
+
+.showcase::after {
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/background-traversy.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: blur(2px);
+    border: 0;
+    margin-left: -1px;
+    margin-top: -1px;
+    padding-right: 1.39px;
+    /*  -webkit-filter: blur(10px);
+    transition: all 1000ms; */
+}
+/*
+.showcase:hover::after {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.showcase:hover .content {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+  */
+.content {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 50%;
+    margin-top: 105px;
+    margin-left: -145px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    transition: all 1000ms;
+}
+
+    .content .logo {
+        height: 180px;
+        width: 299px;
+    }
+
+    .content .title {
+        color: #000;
+        font-size: 2.2rem;
+        margin-top: 1rem;
+    }
+
+    .content .text {
+        color: #000;
+        line-height: 1.7;
+        margin-top: 1rem;
+    }
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.peoplecontainer {
+    width: 80%;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.team-container {
+    background: #000;
+    position: static;
+    width: 99%;
+    margin: auto;
+}
+
+.teamofteam-container {
+    background: #000;
+}
+
+.peoplerc {
+    position: initial;
+    display: inline-block;
+    width: 33%;
+    height: 40vh;
+    padding-top: 1vh;
+}
+
+.peoplerc2 {
+    background: #000;
+    position: inherit;
+    display: inline-block;
+    width: 33%;
+    height: 25vh;
+}
+.upwego {
+    bottom: 0;
+    position: fixed;
+    float: right;
+    right: -2vh;
+    opacity: 1;
+    margin: 23px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+.fab.fa-youtube.fa-3x{
+    text-decoration: none;
+    color: #fff;
+}
+
+section.about.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+footer.center.bg-dark {
+    background: #333;
+    color: #f4f4f4;
+}
+
+footer {
+    padding: 2.2rem;
+}
+
+    footer p {
+        margin: 0;
+    }
+
+section.services {
+    background: #000036;
+}
+.swal-button-container {
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+}
+.swal-button {
+    background-color: #7cd1f9;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 24px;
+    margin: 0;
+    margin-right: 13vh;
+    cursor: pointer;
+}
+    /*Small screen*/
+    @media (max-width: 600px){
+        header h1 {
+            font-size: 1.2rem;
+            margin-left: 160px;
+        }
+        .logopotato {
+            position: absolute;
+            margin: -1.8% 0 0 2%;
+            width: 144px;
+            height: 57px;
+        }
+    }
+    @media (max-width: 560px) {
+        .showcase::after {
+            height: 50vh;
+        }
+
+        .content {
+            top: 13%;
+            margin-top: 5px;
+        }
+
+            .content .logo {
+                height: 140px;
+                width: 140px;
+            }
+
+            .content .text {
+                display: none;
+            }
+
+        .grid-3 {
+            grid-template-columns: 1fr;
+        }
+
+        .grid-2 {
+            grid-template-columns: 1fr;
+        }
+
+        .services div {
+            border-bottom: #333 dashed 1px;
+            padding: 1.2rem 1rem;
+        }
+    }
+    /*From the side phone*/
+    @media(max-height: 500px) {
+        .content .title, .content .text {
+            display: none;
+        }
+
+        .content {
+            top: 0;
+        }
+    }
+    /*Tutorial ends*/
+    .mySlides {
+    display: none;
+    width: 70%;
+    height: 44vh;
+}
+
+.imagess {
+    width: 70%;
+    padding-top: 13vh;
+    padding-bottom: 13vh;
+    padding-left: 27%;
+}
+
+.swal-overlay {
+    background-color: rgba(11, 35, 177, 0.45);
+}
+
+.swal-footer {
+    background-color: rgb(245, 248, 250);
+    margin-top: 32px;
+    border-top: 1px solid #E9EEF1;
+    overflow: hidden;
+}
+
+

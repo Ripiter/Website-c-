@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="PeterConnectionString1-Web.config Connection String" description="PeterConnectionString1 Connection String used in web.config by the application to access the database." defaultValue="Data Source=192.168.182.28;Initial Catalog=Peter;User ID=Peter1" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\pete168s\\source\\repos\\Websitepart3\\Websitepart3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PeterConnectionString1']/@connectionString" />
+  </parameter>
+  <parameter name="PeterConnectionString-Web.config Connection String" description="PeterConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=WIN-V0Q8DU8S9DF\SQLEXPRESS;Initial Catalog=Peter;Persist Security Info=True;User ID=Peter1;Password=Admin123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\pete168s\\source\\repos\\Websitepart3\\Websitepart3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PeterConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

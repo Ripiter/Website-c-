@@ -71,10 +71,12 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
-    <Content Include="css\CounterStrikeSource.css" />
+    <Content Include="Coolerindex.html" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\CounterStrikeSource.css" />
     <Content Include="css\font-awesome.min.css" />
-    <Content Include="css\style.css" />
+    <Content Include="css\Main.css" />
+    <Content Include="css\Notmain.css" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -82,7 +84,15 @@
     <Content Include="img\about1.jpg" />
     <Content Include="img\about2.jpg" />
     <Content Include="img\about3.jpg" />
+    <Content Include="img\achievement-adult-book-1043514.jpg" />
+    <Content Include="img\adult-african-descent-american-1345085.jpg" />
     <Content Include="img\btn-bg.jpg" />
+    <Content Include="img\danishflag.png" />
+    <Content Include="img\englishflag.png" />
+    <Content Include="img\img_forest.jpg" />
+    <Content Include="img\img_lights.jpg" />
+    <Content Include="img\img_mountains.jpg" />
+    <Content Include="img\img_snowtops.jpg" />
     <Content Include="img\item1.jpg" />
     <Content Include="img\item2.jpg" />
     <Content Include="img\item3.jpg" />
@@ -90,7 +100,15 @@
     <Content Include="img\item5.jpg" />
     <Content Include="img\item6.jpg" />
     <Content Include="img\logo.png" />
+    <Content Include="img\newnewlogo.png" />
     <Content Include="img\pattern.jpg" />
+    <Content Include="img\background-traversy.jpeg" />
+    <Content Include="img\personclass.jpg" />
+    <Content Include="img\personclass2.jpg" />
+    <Content Include="img\personclass3.jpg" />
+    <Content Include="img\pexels-photo-1124062.jpeg" />
+    <Content Include="img\pexels-photo-872957.jpeg" />
+    <Content Include="img\potatologo.png" />
     <Content Include="img\service1.png" />
     <Content Include="img\service2.png" />
     <Content Include="img\service3.png" />
@@ -102,7 +120,9 @@
     <Content Include="img\slide-three.jpg" />
     <Content Include="img\slide-two.jpg" />
     <Content Include="index.html" />
-    <Content Include="SomeOtherPage.html" />
+    <Content Include="indexDK.html" />
+    <Content Include="js\cockies.js" />
+    <Content Include="TheCoolerDefault.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -119,6 +139,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TheCoolerDefault.aspx.cs">
+      <DependentUpon>TheCoolerDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheCoolerDefault.aspx.designer.cs">
+      <DependentUpon>TheCoolerDefault.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\fontawesome-webfont.eot" />
@@ -129,6 +156,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
