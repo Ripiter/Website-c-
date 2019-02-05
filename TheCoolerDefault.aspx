@@ -1,4 +1,3 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Websitepart3.Default" %>
 <!DOCTYPE html>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
